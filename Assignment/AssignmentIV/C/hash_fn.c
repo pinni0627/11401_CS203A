@@ -29,7 +29,7 @@ int myHashInt(int key, int m) {
 int myHashString(const char* str, int m) {
     unsigned long hash = 0;
      while(*str){
-        hash = hash * 37 + (unsigned char)(*str); //嘗試看看常數改成37結果會如何
+        hash = hash * 39 + (unsigned char)(*str); //嘗試看看常數改成39結果會如何
         //  把str限定成正整數
         str++; // 往後挪一個字元
     }
