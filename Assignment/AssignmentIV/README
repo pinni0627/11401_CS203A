@@ -17,3 +17,5 @@ ant     0
 owl     0
 
 11/24 01:01 我把*str改成str.data()發現不行，爬文發現好像是版本問題，他們說str.c_str()就可以了，然後新版修改成這兩個function都可以改null結尾的字串
+11/26 00:42 嘗試其他質數在hash function有什麼影響 第一個用37，跟其中一個m重複了，collision變多了
+11/26 01:07 嘗試其他數(31, 41, 1009)，雖然用3個m來複雜化是不會有問題，但在同個m裡面還是很多collision，collision與進位質數的大小不太相干，最好還是用double hashing
