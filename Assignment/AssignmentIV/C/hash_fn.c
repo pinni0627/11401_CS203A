@@ -26,7 +26,7 @@ int myHashInt(int key, int m) {
 int myHashString(const char* str, int m) {
     unsigned long hash = 0;
      while(*str){
-        hash = hash * 33 + (unsigned char)(*str); // 33=2^5+1電腦比較好計算，上課例題也推薦
+        hash = hash * 37 + (unsigned char)(*str); // 33=2^5+1電腦比較好計算，上課例題也推薦
         //  把str限定成正整數
         str++; // 往後挪一個字元
     }
