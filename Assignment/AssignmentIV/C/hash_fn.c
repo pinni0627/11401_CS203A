@@ -10,6 +10,9 @@
     - 2025/11/11: Initial implementation
     - 2025/11/17: Refactored to use hash_fn.h
     - 2025/11/23: complete
+    - 2025/11/26: check
+
+    Author:謝昕芳
  */
 
 #include "hash_fn.h"
@@ -26,7 +29,7 @@ int myHashInt(int key, int m) {
 int myHashString(const char* str, int m) {
     unsigned long hash = 0;
      while(*str){
-        hash = hash * 37 + (unsigned char)(*str); // 33=2^5+1電腦比較好計算，上課例題也推薦
+        hash = hash * 37 + (unsigned char)(*str); //嘗試看看常數改成37結果會如何
         //  把str限定成正整數
         str++; // 往後挪一個字元
     }
