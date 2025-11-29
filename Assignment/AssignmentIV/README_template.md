@@ -14,9 +14,9 @@ Email:s1133324@mail.yzu.edu.tw
   if (key < 0) {
       key = -key; 
   }
-  //確保key為正，取餘數的時候才不會出錯
+  
   ```
-- Rationale: [Explain your design choices and how they minimize collisions.]
+- Rationale:確保key為正，取餘數的時候才不會出錯
 
 ### Non-integer Keys
 - Formula / pseudocode:
@@ -27,8 +27,7 @@ Email:s1133324@mail.yzu.edu.tw
         str++; // 往後挪一個字元
     }
   ```
-- Rationale: [Explain your approach and its effectiveness for non-integer keys.]
-
+- Rationale: while(*str) 檢查指標是否為/0，不是的話就進入迴圈，*31是位置的權重，(unsigned char)(*str)取字母的ASCII且把範圍改成正整數，str++把指標向後移
 ## Experimental Setup
 - Table sizes tested (m): 10, 11, 37
 - Test dataset:
