@@ -218,8 +218,8 @@ Email: ayvonne101122@gmail.com
 - Example output for strings:
   ```
   Hash table (m=10): [8, 6, 9, 3, 9, 4, 6, 9, 6, 1]
-Hash table (m=11): [6, 4, 6, 9, 6, 9, 2, 0, 4, 10]
-Hash table (m=37): [17, 1, 1, 1, 7, 2, 7, 1, 32, 13]
+  Hash table (m=11): [6, 4, 6, 9, 6, 9, 2, 0, 4, 10]
+  Hash table (m=37): [17, 1, 1, 1, 7, 2, 7, 1, 32, 13]
   ```
 - Observations: Outputs align with the analysis, showing better distribution with prime table sizes.
 
