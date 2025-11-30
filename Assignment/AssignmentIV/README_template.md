@@ -5,7 +5,7 @@ Students are expected to implement and analyze the behavior of hash functions,
 evaluate their efficiency, and understand their applications in computer science.
 
 Developer: 謝昕芳
-Email:s1133324@mail.yzu.edu.tw  
+Email: ayvonne101122@gmail.com
 
 ## My Hash Function
 ### Integer Keys 
